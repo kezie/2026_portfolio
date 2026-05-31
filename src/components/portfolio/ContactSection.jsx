@@ -108,13 +108,13 @@ export default function ContactSection() {
       >
         <div>
           <Annotation label="EMAIL" className="block mb-2" />
-          <a href="mailto:hello@studio.com" className="font-body text-sm text-foreground hover:text-accent transition-colors">
-            hello@studio.com
+          <a href="mailto:mail@chikezie.com.ng" className="font-body text-sm text-foreground hover:text-accent transition-colors">
+            mail@chikezie.com.ng
           </a>
         </div>
         <div>
           <Annotation label="BASED IN" className="block mb-2" />
-          <span className="font-body text-sm text-foreground">New York, NY</span>
+          <span className="font-body text-sm text-foreground">Abuja, NG</span>
         </div>
         <div>
           <Annotation label="AVAILABILITY" className="block mb-2" />
