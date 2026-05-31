@@ -1,14 +1,14 @@
 /**
  * WordPress Headless CMS — API utility
  *
- * Set your WordPress site URL below (no trailing slash).
+ * The WordPress site URL is configured via the VITE_WP_BASE_URL environment variable.
  * The WordPress REST API must be enabled (it is by default on WP 4.7+).
  *
  * For local dev you can proxy via a CORS-anywhere service or enable CORS
  * on your WordPress install with a plugin (e.g. "WP CORS").
  */
 
-export const WP_BASE_URL = 'https://chikezie.com.ng'; // ← change this
+export const WP_BASE_URL = import.meta.env.VITE_WP_BASE_URL;
 
 const API = `${WP_BASE_URL}/wp-json/wp/v2`;
 

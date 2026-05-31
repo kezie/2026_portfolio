@@ -5,7 +5,7 @@ import { ArrowUpRight, X, Menu } from 'lucide-react';
 
 const navLinks = [
   { label: 'Work', href: '/#work' },
-  { label: 'Thoughts', href: '/blog', isRoute: true },
+  { label: 'Insights', href: '/blog', isRoute: true },
   { label: 'About', href: '/#about' },
   { label: 'Contact', href: '/#contact' },
 ];
@@ -50,7 +50,7 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-between px-6 md:px-12 py-5">
           <Link to="/" className="font-mono text-sm tracking-widest uppercase text-foreground">
-            Portfolio ©
+            Chikezie's Portfolio ©
           </Link>
 
           {/* Desktop nav */}
@@ -149,7 +149,7 @@ export default function Navbar() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
             >
-              STRUCTURAL SINCERITY © 2026
+              CHIKEZIE OGUAMANAM © 2026
             </motion.span>
           </motion.div>
         )}

@@ -47,8 +47,8 @@ export default function HeroSection() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 1.2, duration: 0.8 }}
       >
-        <span className="block">01 / TYPE: SEO ENGINEER & WEB DEVELOPER</span>
-        <span className="block mt-1">STACK: React · Next.js · TypeScript · Core Web Vitals</span>
+        <span className="block">01 / TYPE: SEO ENGINEER | WEB DEVELOPER | AUTOMATION SPECIALIST</span>
+        <span className="block mt-1">STACK: React · Node.js · PHP · PYTHON · Core Web Vitals</span>
       </motion.div>
 
       {/* Main display text */}

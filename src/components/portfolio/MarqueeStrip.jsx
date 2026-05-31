@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function MarqueeStrip({ text = 'SEO ENGINEERING — WEB DEVELOPMENT', separator = '—' }) {
+export default function MarqueeStrip({ text = 'SEO ENGINEERING — WEB DEVELOPMENT - AUTOMATION SPECIALIST', separator = '—' }) {
   const repeated = Array(8).fill(`${text} ${separator} `).join('');
 
   return (

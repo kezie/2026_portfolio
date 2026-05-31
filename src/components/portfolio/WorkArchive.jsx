@@ -5,13 +5,23 @@ import Annotation from './Annotation';
 
 const projects = [
   {
-    id: 'monolith-identity',
-    title: 'Rank Zero',
-    category: 'Technical SEO',
+    //Nile Media
+    id: 'Agentic-identity',
+    title: 'Agent Swarm',
+    category: 'System Automation',
     year: '2026',
     image: 'https://media.base44.com/images/public/6a05e6f6183a677fd3f8f616/d2f73039f_generated_851737c6.png',
   },
+    {
+    //Ultimate HMO
+    id: 'monolith-identity',
+    title: 'Rank Zero',
+    category: 'Full-Stack Dev',
+    year: '2025',
+    image: 'https://media.base44.com/images/public/6a05e6f6183a677fd3f8f616/d2f73039f_generated_851737c6.png',
+  },
   {
+    //Havosoft
     id: 'carbon-systems',
     title: 'Velocity Stack',
     category: 'Web Performance',
@@ -19,24 +29,27 @@ const projects = [
     image: 'https://media.base44.com/images/public/6a05e6f6183a677fd3f8f616/baa799063_generated_ca5957c5.png',
   },
   {
+    //Nigeria First - Data Analysis
     id: 'tectonic-shift',
     title: 'Schema Engine',
     category: 'Structured Data',
-    year: '2025',
+    year: '2018',
     image: 'https://media.base44.com/images/public/6a05e6f6183a677fd3f8f616/beac88da1_generated_992d1c3c.png',
   },
   {
+    //Kelina Hospital 
     id: 'blueprint-archive',
     title: 'Core Architecture',
-    category: 'Full-Stack Dev',
-    year: '2024',
+    category: 'Technical SEO',
+    year: '2022',
     image: 'https://media.base44.com/images/public/6a05e6f6183a677fd3f8f616/2680a599f_generated_956b85ca.png',
   },
   {
+    //CPDI Africa
     id: 'glass-pavilion',
     title: 'Signal & Crawl',
-    category: 'SEO Audit',
-    year: '2024',
+    category: 'Programmatic Ads',
+    year: '2020',
     image: 'https://media.base44.com/images/public/6a05e6f6183a677fd3f8f616/65c7d775c_generated_819d6998.png',
   },
 ];

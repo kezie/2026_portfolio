@@ -87,11 +87,11 @@ export default function Blog() {
             </h1>
             <div className="max-w-sm">
               <p className="font-body text-sm md:text-base text-muted-foreground leading-[1.7]">
-                Technical deep-dives on SEO engineering, web performance, and the craft 
+                Technical deep-dives on SEO engineering, web performance, automation, and the craft 
                 of building for search — direct from the field.
               </p>
               <p className="font-mono text-[10px] tracking-widest uppercase text-muted-foreground mt-4">
-                Powered by WordPress REST API
+                Powered by coffee
               </p>
             </div>
           </div>

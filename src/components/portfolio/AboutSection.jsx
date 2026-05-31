@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import Annotation from './Annotation';
 
 const stats = [
-  { label: 'Years Active', value: '07+' },
-  { label: 'Sites Optimized', value: '200+' },
+  { label: 'Years Active', value: '10+' },
+  { label: 'Sites Optimized', value: '10+' },
   { label: 'Avg. Traffic Lift', value: '3×' },
   { label: 'Core Web Vitals', value: '100' },
 ];
@@ -64,9 +64,9 @@ export default function AboutSection() {
               architected to earn and hold top positions.
             </p>
             <p className="font-body text-base text-muted-foreground leading-[1.7]">
-              With 7+ years across technical SEO, full-stack web development, and 
+              With 10+ years across technical SEO, full-stack web development, and 
               performance engineering, I've helped SaaS companies, e-commerce brands, 
-              and media publishers multiply organic traffic through code-level precision — 
+              healthcare institutions, and media publishers multiply organic traffic through code-level precision — 
               not just keyword strategy.
             </p>
             <p className="font-body text-base text-muted-foreground leading-[1.7]">
@@ -86,7 +86,7 @@ export default function AboutSection() {
           >
             <Annotation label="SERVICES" className="mb-6 block" />
             <div className="flex flex-wrap gap-3">
-              {['Technical SEO', 'React / Next.js', 'Core Web Vitals', 'Schema Markup', 'TypeScript', 'Node.js', 'Crawl Audits', 'Site Architecture'].map(
+              {['Technical SEO', 'React / Node.js', 'PHP', 'Core Web Vitals', 'Site Architecture', 'Python', 'Automation' ,'Programmatic Ads'].map(
                 (service) => (
                   <span
                     key={service}

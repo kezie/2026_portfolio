@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 
 const socials = [
-  { label: 'Twitter', href: '#' },
-  { label: 'Dribbble', href: '#' },
-  { label: 'LinkedIn', href: '#' },
-  { label: 'Instagram', href: '#' },
+  { label: 'Twitter', href: 'https://twitter.com/kezielive' },
+  { label: 'GitHub', href: 'https://github.com/kezie' },
+  { label: 'LinkedIn', href: 'https://linkedin.com/in/chikezieoguamanam' },
+  { label: 'Instagram', href: 'https://instagram.com/chee_kay_zie' },
 ];
 
 export default function Footer() {
@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8">
           <span className="font-mono text-[10px] tracking-[0.2em] uppercase text-muted-foreground">
-            © 2026 — STRUCTURAL SINCERITY
+            © 2026 — DESIGNED BY CHIKEZIE OGUAMANAM
           </span>
           <div className="flex items-center gap-6">
             {socials.map((social) => (
